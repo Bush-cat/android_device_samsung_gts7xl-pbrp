@@ -65,13 +65,13 @@ PLATFORM_SECURITY_PATCH := 2021-01-01
 # Portrait orientation:
 #
 TW_THEME := portrait_hdpi
-TW_ROTATION := 270
+# TW_ROTATION := 270
 
 # Landscape orientation:
 #
-# TW_THEME := landscape_hdpi
-# RECOVERY_TOUCHSCREEN_SWAP_XY := true
-# RECOVERY_TOUCHSCREEN_FLIP_Y := true
+# TW_THEME := landscape_hdpi # no landscape pbrp theme available!
+RECOVERY_TOUCHSCREEN_SWAP_XY := true
+RECOVERY_TOUCHSCREEN_FLIP_Y := true
 
 # TWRP
 RECOVERY_SDCARD_ON_DATA := true
