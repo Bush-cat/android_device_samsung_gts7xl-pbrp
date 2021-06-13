@@ -7,7 +7,7 @@
 First download pbrp-10.0 tree:
 
 ```bash
-repo init  --depth=1 -u git://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-10.0
+repo init --depth=1 -u git://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-10.0
 ```
 
 Then add these projects to .repo/local_manifests/roomservice.xml (If you don't have it, you can add them to .repo/manifest.xml):
